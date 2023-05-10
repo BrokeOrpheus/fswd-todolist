@@ -2,7 +2,9 @@
   "name": "fswd-todolist",
   "private": true,
   "engines": {
-    "node": "~16.14"
+    "npm": "8.5.x",
+    "node": "16.14.x",
+    "yarn": "1.22.x"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.7",
