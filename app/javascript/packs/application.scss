@@ -1,0 +1,14 @@
+@import "bootstrap";
+
+button, input {
+  box-shadow: none !important;
+}
+
+#filter-buttons {
+  button {
+    background-color: $blue;
+  }
+  .selected {
+    background-color: $green;
+  }
+}

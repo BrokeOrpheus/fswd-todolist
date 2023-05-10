@@ -1,0 +1,24 @@
+<%= javascript_pack_tag 'index', 'data-turbolinks-track': 'reload' %>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-12'>
+      <h1 class='text-center mt-4'>To Do List</h1>
+      <form>
+        <div class='input-group my-3'>
+          <input type='text' class='form-control' placeholder='New Item'>
+          <button id='submit-btn' class='btn btn-outline-secondary' type='submit'>Submit</button>
+        </div>
+      </form>
+      <div class='row'>
+        <div id='filter-buttons' class="btn-group mb-3">
+          <button id='all-btn' type="button" class="btn selected">All</button>
+          <button id='active-btn' type="button" class="btn">Active</button>
+          <button id='complete-btn' type="button" class="btn">Completed</button>
+        </div>
+      </div>
+      <div class='row' id='tasks'>
+      </div>
+    </div>
+  </div>
+</div>
